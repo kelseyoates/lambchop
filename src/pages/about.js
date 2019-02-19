@@ -4,6 +4,10 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import rdo from '../images/robert-oates.png'
 
+import buLogo from '../images/boston-university-logo.png'
+import bmcLogo from '../images/bmc-logo.png'
+import map from '../images/map.png'
+
 const AboutPage = () => (
   <Layout>
     <SEO
@@ -25,6 +29,169 @@ const AboutPage = () => (
       <div className="sm:w-2/3 md:w-1/3 mx-auto">
         <img src={rdo} alt="Dr. Oates wears his white medical coat and blue scrubs in a professional photo." className="max-w-xs"/>
       </div>
+
+
+      <div className="bg-blue-dark pt-20 pb-10" >
+    <h2>        
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">About Dr. Oates</span>
+    </h2>
+  </div>
+
+
+{/* General Info One */}
+<div className="flex flex-col md:flex-row items-top bg-blue-dark ">
+
+<div className="lg:w-1/2 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark pb-10 mx-4">
+    <div className=" bg-white py-8 rounded-sm">
+
+    <div className=" mb-2 ">        
+          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Current</span>
+          </div>
+          <p className="text-black text-base text-left leading-normal px-8">
+    Professor of Urology, Boston University School of Medicine 
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2003 - present
+    </p>
+    <p className="text-black text-base text-left leading-normal px-6">
+    Vice-Chair, Department of Urology, Boston University School of Medicine 
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2010 - present
+    </p>
+    <p className="text-black text-base text-left leading-normal px-6">
+    Co-Director, New England Male Reproductive Cetner, Boston Medical Center, Boston, MA
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    1988 - present
+    </p>
+
+
+    <p className="text-black text-base text-left leading-normal px-8">
+    Adjunct Faculty - Beth Israel Deaconess Fellowship Reproductive Encocrinology, Beth Israel Medical Center
+    </p>
+
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2002 - present
+    </p>
+
+      </div>
+  </div>
+
+
+  <div className="lg:w-1/2 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark mx-4">
+    <div className=" bg-white rounded-sm">
+    <div className="w-full py-8">
+    <div className=" mb-2 ">        
+          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Recent</span>
+          </div>
+          <p className="text-black text-base text-left leading-normal px-8">
+    Program Director: Urological Residency Program, Boston University Department of Urology
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2003 - 2017
+    </p>
+    <p className="text-black text-base text-left leading-normal px-8">
+    Director of Medical Student Urological Education, Boston University School of Medicine 
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2003 - 2010
+    </p>
+    <p className="text-black text-base text-left leading-normal px-8">
+    American Society of Reproductive Medicine: Board of Directors
+    </p>
+    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
+    2012 - 2017
+    </p>
+
+      </div>
+      </div>
+  </div>
+
+
+</div>
+
+
+
+<div className="flex flex-col md:flex-row items-top bg-white py-10">
+
+
+<div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
+        <div className="p-3">
+
+          <p className="text-black font-bold text-base text-center leading-normal ">
+    America's Top Doctors, 
+    </p>
+    <p className="text-black text-base text-center leading-normal ">
+    Castle and Connolly
+    </p>
+    <p className="text-grey-dark  text-sm italic text-center leading-normal mb-3">
+    2000-2018 (annually)
+    </p>
+
+        </div>
+      </div>
+  </div>
+
+  <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
+    <div className=" shadow-lg  bg-white border-l-4 border-blue rounded-sm">
+        <div className="p-3">
+
+          <p className="text-black font-bold  text-base text-center leading-normal ">
+    Boston's Top Doctors
+    </p>
+    <p className="text-black text-base text-center leading-normal ">
+    Boston Magazine
+    </p>
+    <p className="text-grey-dark  text-sm italic text-center leading-normal mb-3">
+    2006 - 2018
+    </p>
+
+        </div>
+      </div>
+  </div>
+
+  <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
+        <div className="p-3">
+
+          <p className="text-black font-bold  text-base text-center leading-normal ">
+    Marqus Who's Who
+    </p>
+    <p className="text-black text-base text-center leading-normal ">
+    National Registry
+    </p>
+    <p className="text-grey-dark  text-sm italic text-center leading-normal mb-3">
+      Lifetime Member #130654
+    </p>
+
+        </div>
+      </div>
+  </div>
+
+
+  <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
+        <div className="p-4">
+
+          <p className="text-black font-bold  text-base text-center leading-normal ">
+    Kingston's Who's Who
+    </p>
+    <p className="text-black text-base text-center leading-normal ">
+    National Registry
+    </p>
+    <p className="text-grey-dark  text-sm italic text-center leading-normal mb-3">
+      Lifetime Member #192304
+    </p>
+
+        </div>
+      </div>
+  </div>
+
+
+</div>
+
 
 
                     <button className="py-4 px-8 mt-2 text-sm font-black border border-purple-dark hover:border-purple-darkest text-purple-darker bg-white uppercase rounded font-mono">Book Appointment</button>

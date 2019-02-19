@@ -7,7 +7,7 @@ import phone from '../images/phone-light.svg'
 import envelope from '../images/envelope-light.svg'
 import babyOutline from '../images/baby-girl.png'
 import pregnancyTest from '../images/pregnancy-test-black.png'
-import vasReversal from '../images/shutterstock_780490936.jpg'
+import vasReversal from '../images/shutterstock_780490936.png'
 import sci from '../images/shutterstock_156885317.jpg'
 import infertility from '../images/justin-follis-450674-unsplash.jpg'
 import rdo from '../images/robert-oates.png'
@@ -49,7 +49,7 @@ const IndexPage = () => (
 <div className="flex flex-col md:flex-row items-top bg-white mx-auto ">
 
 <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue pt-20">
-    <div className=" bg-white py-8">
+    <div className="rounded-sm bg-white py-8">
 
         <p className="text-center p-4">
         <img src={pregnancyTest} alt="a pregnancy test icon" className="w-10"/>
@@ -63,22 +63,22 @@ const IndexPage = () => (
 
 
   <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark pt-20">
-    <div className=" bg-white ">
-    <div className="w-full py-8">
+    <div className="rounded-sm bg-white py-8">
+   
         <p className="text-center p-4">
         <img src={genders} alt="a microscope  icon" className="w-10"/>
       </p>
       <p className="px-8 text-left text-black">
         While infertility is often associated with women, male infertility occurs just as frequently.
       </p>
-      </div>
+      
       </div>
   </div>
 
 
   <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue pt-20">
-    <div className=" bg-white ">
-    <div className="w-full py-8">
+    <div className="rounded-sm bg-white py-8">
+  
         <p className="text-center p-4">
         <img src={microscope} alt="a microscope icon" className="w-10"/>
       </p>
@@ -86,7 +86,7 @@ const IndexPage = () => (
       In order to determine what's causing your infertility, you'll need a full workup and a coordinated care plan. Book an appointment with Dr. Robert Oates at Boston Medical Center to start your treatment today.
       </p>
       </div>
-      </div>
+  
   </div>
 
 </div>
@@ -98,13 +98,13 @@ const IndexPage = () => (
 
 <div className="bg-blue pt-20 pb-20" >
     <h2>        
-      <span className=" font-bold text-2xl text-center bg-blue-darker  px-20 py-4 text-white ">Topics of Male Infertility</span>
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker  px-20 py-4 text-white ">Topics of Male Infertility</span>
     </h2>
   </div>
 
 <div className="flex flex-col md:flex-row items-top bg-blue">
-  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal">
-    <div className=" overflow-hidden shadow-lg my-2 bg-white">
+  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal ">
+    <div className=" overflow-hidden shadow-lg my-2 bg-white rounded-sm">
       <img className="w-full" src={vasReversal} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
 
@@ -127,7 +127,7 @@ const IndexPage = () => (
   </div>
 
   <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal">
-    <div className=" overflow-hidden shadow-lg my-2 bg-white">
+    <div className=" overflow-hidden shadow-lg my-2 bg-white rounded-sm">
       <img className="w-full" src={infertility} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
         <div className=" mb-2  -mt-8 -ml-6">        
@@ -151,14 +151,14 @@ const IndexPage = () => (
 
 
   <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal">
-    <div className="  overflow-hidden shadow-lg my-2 bg-white">
+    <div className="  overflow-hidden shadow-lg my-2 bg-white rounded-sm">
       <img className="w-full" src={sci} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
         <div className=" mb-2  -mt-8 -ml-6">        
           <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Spinal Cord Injury</span>
           </div>
             <p className="text-grey-darker text-base">
-              Many men with spinal cord injuries need medical assistance conceiving. I've been fortunate to work extensively with patients with spinal cord injuries and was on of the first clinicians in the US to be actively involved in the treatment of infertility in the spinal cord injured male. I authored some of the first papers detailing the application and results of penile vibratory stimulation and rectal probe electroejaculation and my experience is second to none in New England.
+              Many men with spinal cord injuries need medical assistance conceiving. I've been fortunate to work extensively with patients with spinal cord injuries and was on of the first clinicians in the US to be actively involved in the treatment of infertility in the spinal cord injured male. 
             </p>
 
             <Link
@@ -176,78 +176,54 @@ const IndexPage = () => (
 
 <div className="parallax-1"></div>
 
-  <div className="bg-blue-dark pt-20 pb-10" >
+  <div className="bg-blue-lighter pt-20 pb-10" >
     <h2>        
-      <span className=" font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">About Dr. Oates</span>
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">About Dr. Oates</span>
     </h2>
   </div>
 
 
 {/* General Info One */}
-<div className="flex flex-col md:flex-row items-top bg-blue-dark ">
+<div className="flex flex-col md:flex-row items-top bg-blue-lighter ">
 
-<div className="lg:w-1/2 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark pb-10 mx-4">
-    <div className=" bg-white py-8">
+<div className="lg:w-1/3 md:w-1/3 sm:w-1/1 p-4 leading-normal  pb-10 mx-4">
+    <div className=" bg-white py-3 rounded-sm text-center">
+        <img src={rdo} alt="Dr. Oates wears his white medical coat and blue scrubs in a professional photo." className="max-w-xs "/>
 
-    <div className=" mb-2 ">        
-          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Current</span>
-          </div>
-          <p className="text-black text-base text-left leading-normal px-8">
-    Professor of Urology, Boston University School of Medicine 
-    </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2003 - present
-    </p>
-    <p className="text-black text-base text-left leading-normal px-6">
-    Vice-Chair, Department of Urology, Boston University School of Medicine 
-    </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2010 - present
-    </p>
-    <p className="text-black text-base text-left leading-normal px-6">
-    Co-Director, New England Male Reproductive Cetner, Boston Medical Center, Boston, MA
-    </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    1988 - present
-    </p>
-
-
-    <p className="text-black text-base text-left leading-normal px-8">
-    Adjunct Faculty - Beth Israel Deaconess Fellowship Reproductive Encocrinology, Beth Israel Medical Center
-    </p>
-
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2002 - present
-    </p>
 
       </div>
   </div>
 
 
-  <div className="lg:w-1/2 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark mx-4">
-    <div className=" bg-white ">
+  <div className="lg:w-2/3 md:w-2/3 sm:w-1/1 p-4 leading-normal ">
+    <div className=" bg-white rounded-sm">
     <div className="w-full py-8">
     <div className=" mb-2 ">        
-          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Recent</span>
+          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Current</span>
+          </div>
+          <p className="text-black text-base text-left leading-normal px-8 pb-8">
+        I'm a Professor of Urology at Boston University School of Medicine and Vice-Chairman of the Department of Urology. I've been the Fellowship Program Director for the past eight years and ran the Urology Residency program for fourteen years. I collaborate with colleagues across the globe on numerous research projects and helm a busy clinical practice here at Boston Medical Center (BMC).
+    </p>
+
+    <div className=" mb-2 ">        
+          <span className=" font-bold text-xl inline-block bg-blue-dark  px-3 py-1 text-white ">Training</span>
           </div>
           <p className="text-black text-base text-left leading-normal px-8">
-    Program Director: Urological Residency Program, Boston University Department of Urology
+          Born and bred in Boston, I attended medical school at Boston University School of Medicine and stayed for my Urology residency. After finishing my residency, I was fortunate to work with Dr. Larry Lipshultz in 1988 at Baylor College of Medicine in Houston for one of the first clinical fellowships in Male Reproductive Medicine. I returned to Boston after my fellowship concluded and have been an Attending Surgeon in the Department of Urology at BMC ever since.
     </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2003 - 2017
-    </p>
+
     <p className="text-black text-base text-left leading-normal px-8">
-    Director of Medical Student Urological Education, Boston University School of Medicine 
+    
+    <Link
+            to="/services"
+            className="text-sm inline-block pt-4 text-grey-darkest"
+          >
+            More about Dr. Oates →
+          </Link>
+
     </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2003 - 2010
-    </p>
-    <p className="text-black text-base text-left leading-normal px-8">
-    American Society of Reproductive Medicine: Board of Directors
-    </p>
-    <p className="text-grey-dark  text-sm italic text-left leading-normal mb-3 px-8">
-    2012 - 2017
-    </p>
+
+
 
       </div>
       </div>
@@ -262,7 +238,7 @@ const IndexPage = () => (
 
 
 <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
-    <div className=" shadow-lg bg-white border-l-4 border-blue">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
         <div className="p-3">
 
           <p className="text-black font-bold text-base text-center leading-normal ">
@@ -280,7 +256,7 @@ const IndexPage = () => (
   </div>
 
   <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
-    <div className=" shadow-lg  bg-white border-l-4 border-blue">
+    <div className=" shadow-lg  bg-white border-l-4 border-blue rounded-sm">
         <div className="p-3">
 
           <p className="text-black font-bold  text-base text-center leading-normal ">
@@ -298,7 +274,7 @@ const IndexPage = () => (
   </div>
 
   <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
-    <div className=" shadow-lg bg-white border-l-4 border-blue">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
         <div className="p-3">
 
           <p className="text-black font-bold  text-base text-center leading-normal ">
@@ -317,7 +293,7 @@ const IndexPage = () => (
 
 
   <div className="lg:w-1/4 md:w-1/3 sm:w-1/1 p-4 leading-normal">
-    <div className=" shadow-lg bg-white border-l-4 border-blue">
+    <div className=" shadow-lg bg-white border-l-4 border-blue rounded-sm">
         <div className="p-4">
 
           <p className="text-black font-bold  text-base text-center leading-normal ">
@@ -339,7 +315,7 @@ const IndexPage = () => (
 
 <div className="bg-grey-light pt-20 pb-10 " >
     <h2>        
-      <span className=" font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Why Boston Medical Center</span>
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Why Boston Medical Center</span>
     </h2>
   </div>
 <div className="flex flex-col md:flex-row items-top bg-grey-light pb-20">
@@ -362,7 +338,7 @@ const IndexPage = () => (
             We're located right off the highway and are accessible by public transportation.
             </p>
            
-            <div className="flex rounded border-right-rounded border-grey-dark overflow-hidden">
+            <div className="flex rounded-sm border-right-rounded border-grey-dark overflow-hidden">
   <div className="bg-blue-light shadow-border p-3">
     <div className="w-4 h-4">
     <img src={map} alt="a phone icon" />
@@ -385,9 +361,101 @@ const IndexPage = () => (
 
 
 
+
+
+<div className="bg-white pt-20 pb-10 " >
+    <h2>        
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Frequently Asked Questions</span>
+    </h2>
+  </div>
+<div className="flex flex-col md:flex-row items-top bg-white pb-20">
+
+
+
+<div className="lg:w-1/2 md:w-1/2 sm:w-1/1 leading-normal px-4 ">
+    
+
+
+{/* FAQ Accordion */}
+<div className="accordion flex flex-col items-center  ">
+ 
+ <div className="w-full ">
+   <input type="checkbox" name="panel" id="panel-1" className="hidden" />
+   <label for="panel-1" className="relative block bg-blue-dark text-white p-4 shadow border-b border-grey rounded-sm">What's the appointment like?</label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+     {/* <h2 className="accordion__header pt-4 pl-4">Header</h2> */}
+     <p className="accordion__body p-4" id="panel1">Every appointment begins with getting to know the patient. We'll talk for a bit and depending on what you're in for, we might schedule a follow-up. Any tests or procedures will be scheduled as follow-ups.</p>
+   </div>
+ </div>
+
+ <div className="w-full">
+   <input type="checkbox" name="panel" id="panel-2" className="hidden" />
+   <label for="panel-2" className="relative block bg-blue text-white p-4 shadow border-b border-grey rounded-sm">Should I bring my wife?</label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+     <p className="accordion__body p-4">Many patients do attend appointments with their spouses. While it's possible to attend the appointment alone, infertility is often experienced as a couple and in many cases the treatment will involve both spouses. </p>
+   </div>
+ </div>
+
+ <div className="w-full">
+   <input type="checkbox" name="panel" id="panel-3" className="hidden" />
+   <label for="panel-3" className="relative block bg-blue-dark text-white p-4 shadow border-b border-grey rounded-sm">Do I need to bring anything?</label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+
+     <p className="accordion__body p-4">We ask that patients bring their medical records and a list of any medications they are on. Our care coordinator will review this when you book your appointment and after you've booked, you will receive a letter in the mail specifying what you need and how to obtain your medical records. If you have any trouble doing so, please call us and we'll try to help you sort it out.</p>
+   </div>
+ </div>
+</div>
+{/* End of Accordion */}
+   
+  </div>
+
+
+
+
+
+  <div className="lg:w-1/2 md:w-1/2 sm:w-1/1 leading-normal px-4 ">
+    
+
+
+{/* FAQ Accordion */}
+<div className="accordion flex flex-col items-center ">
+ 
+ <div className="w-full">
+   <input type="checkbox" name="panel" id="panel-4" className="hidden" />
+   <label for="panel-4" className="relative block bg-blue text-white p-4 shadow border-b border-grey rounded-sm">I already know I want a reversal. Why can't I just book it now? </label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+     <p className="accordion__body p-4" id="panel4">While we appreciate that many patients are coming to us with a specific procedure in mind, we will need to schedule a consultation before doing any procedures or surgeries. We cannot just schedule a vasectomy reversal without seeing you in an appointment first.</p>
+   </div>
+ </div>
+
+ <div className="w-full">
+   <input type="checkbox" name="panel" id="panel-5" className="hidden" />
+   <label for="panel-5" className="relative block bg-blue-dark text-white p-4 shadow border-b border-grey rounded-sm">How long is the recovery time for a vasectomy reversal?</label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+     <p className="accordion__body p-4">Vasectomy reversals are outpatient procedures, which means you will be in and out and back to being able to conceive in just a few short hours. We suggest that you plan to go easy for the next few days, but most patients are able to get back to normal by the next day. </p>
+   </div>
+ </div>
+
+ <div className="w-full">
+   <input type="checkbox" name="panel" id="panel-6" className="hidden" />
+   <label for="panel-6" className="relative block bg-blue text-white p-4 shadow border-b border-grey rounded-sm">Panel 3</label>
+   <div className="accordion__content overflow-hidden bg-grey-lighter">
+     <p className="accordion__body p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus at a cum saepe molestias modi illo facere ducimus voluptatibus praesentium deleniti fugiat ab error quia sit perspiciatis velit necessitatibus.Lorem ipsum dolor sit amet, consectetur
+       adipisicing elit. Lorem ipsum dolor sit amet.</p>
+   </div>
+ </div>
+</div>
+{/* End of Accordion */}
+   
+  </div>
+
+</div>
+
+
+
 <div className="bg-blue pt-20 pb-10" >
     <h2>        
-      <span className=" font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Get in Touch</span>
+      <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Get in Touch</span>
     </h2>
   </div>
 <div className="flex flex-col md:flex-row items-top bg-blue py-5">
