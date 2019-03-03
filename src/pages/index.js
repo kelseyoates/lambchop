@@ -48,7 +48,7 @@ const IndexPage = () => (
 {/* General Info One */}
 <div className="flex flex-col md:flex-row items-top bg-white mx-auto ">
 
-<div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue pt-20">
+<div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue py-5">
     <div className="rounded-sm bg-white py-8">
 
         <p className="text-center p-4">
@@ -62,7 +62,7 @@ const IndexPage = () => (
   </div>
 
 
-  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark pt-20">
+  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue-dark py-5">
     <div className="rounded-sm bg-white py-8">
    
         <p className="text-center p-4">
@@ -76,14 +76,14 @@ const IndexPage = () => (
   </div>
 
 
-  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue pt-20">
+  <div className="lg:w-1/3 md:w-1/2 sm:w-1/1 p-4 leading-normal bg-blue py-5">
     <div className="rounded-sm bg-white py-8">
   
         <p className="text-center p-4">
         <img src={microscope} alt="a microscope icon" className="w-10"/>
       </p>
       <p className="px-8 text-left text-black">
-      In order to determine what's causing your infertility, you'll need a full workup and a coordinated care plan. Book an appointment with Dr. Robert Oates at Boston Medical Center to start your treatment today.
+      Book an appointment with Dr. Robert Oates at Boston Medical Center to start your treatment today.
       </p>
       </div>
   
@@ -119,7 +119,7 @@ const IndexPage = () => (
             to="/services"
             className="text-sm inline-block pt-4 text-grey-darkest"
           >
-            Read More →
+            Learn More →
           </Link>
 
         </div>
@@ -142,7 +142,7 @@ const IndexPage = () => (
             to="/services"
             className="text-sm inline-block pt-4 text-grey-darkest"
           >
-            Read More →
+            Learn More →
           </Link>
           </div>
 
@@ -165,7 +165,7 @@ const IndexPage = () => (
             to="/services"
             className="text-sm inline-block pt-4 text-grey-darkest"
           >
-            Read More →
+            Learn More →
           </Link>
         </div>
 
@@ -318,27 +318,21 @@ const IndexPage = () => (
       <span className="rounded-sm font-bold text-2xl text-center bg-blue-darker px-20 py-4 text-white ">Why Boston Medical Center</span>
     </h2>
   </div>
-<div className="flex flex-col md:flex-row items-top bg-grey-light pb-20">
-  <div className="lg:w-1/3 md:w-1/3 sm:w-1/1 p-4 leading-normal">
-    <div className="rounded overflow-hidden my-2">
-      <img className="max-w-xs " src={bmcLogo} alt="Sunset in the mountains" />
-      <img className="max-w-xs " src={buLogo} alt="Sunset in the mountains" />
+<div className="flex flex-col md:flex-row items-top bg-grey-light py-10">
 
-      </div>
-  </div>
 
   <div className="lg:w-2/3 md:w-2/3 sm:w-1/1 leading-normal px-10 ">
     
-        <div className="px-6 py-4">
+        <div >
 
-            <p className="text-grey-darker text-base mt-6">
+            <p className="text-grey-darker text-base ">
             Boston Medical Center (BMC) is a renowned academic hospital in the heart of Boston's historic south end. BMC is affiliated with Boston University and has been home to some of the best medicine in the nation. From trauma to other stuff, BMC represents the heart of Boston and will always offer "exceptional care without exception".
             </p>
             <p className="text-grey-darker text-base mt-6">
             We're located right off the highway and are accessible by public transportation.
             </p>
            
-            <div className="flex rounded-sm border-right-rounded border-grey-dark overflow-hidden">
+            {/* <div className="flex rounded-sm border-right-rounded border-grey-dark overflow-hidden">
   <div className="bg-blue-light shadow-border p-3">
     <div className="w-4 h-4">
     <img src={map} alt="a phone icon" />
@@ -351,11 +345,61 @@ const IndexPage = () => (
             3rd Floor, Suite 3B
   </button>
 
-</div>
+</div> */}
          
           </div>
    
   </div>
+
+
+  <div className="lg:w-1/3 md:w-1/3 sm:w-1/1 px-5 leading-normal">
+
+
+<div className=" bg-white rounded-sm">
+    <div className="w-full py-8">
+    <div className=" mb-2 ">        
+          <span className=" font-bold text-2xl inline-block bg-blue-dark  px-10 py-2 text-white ">
+          
+          <div className="w-4 h-4">
+    <img src={map} alt="a phone icon" />
+    </div>
+          
+          
+          </span>
+          </div>
+  
+          <p className="text-black font-bold  text-base text-center leading-normal ">
+          BMC Urology 
+    </p>
+    <p className="text-black text-base text-center leading-normal ">
+    725 Albany Street 
+    </p>
+
+    <p className="text-black text-base text-center leading-normal ">
+    Boston, MA 02118
+    </p>
+
+    <p className="text-black text-base text-center leading-normal ">
+    Shapiro Center
+    </p>
+
+    <p className="text-black text-base text-center leading-normal ">
+    3rd Floor, Suite 3B
+    </p>
+
+
+
+    <p className="text-grey-dark  text-sm italic text-center leading-normal mb-3">
+      Click for directions
+    </p>
+
+      </div>
+      </div>
+
+
+  </div>
+
+
 
 </div>
 
@@ -459,11 +503,8 @@ const IndexPage = () => (
     </h2>
   </div>
 <div className="flex flex-col md:flex-row items-top bg-blue py-5">
-  <div className="lg:w-1/3 md:w-1/3 sm:w-1/1 p-4 leading-normal">
 
-  </div>
-
-  <div className="lg:w-2/3 md:w-2/3 sm:w-1/1 leading-normal px-10">
+  <div className="lg:w-2/3 md:w-2/3 sm:w-1/1 leading-normal mx-auto px-10">
   <div className="mx-auto py-10 ">
 <ContactSide />
   </div>

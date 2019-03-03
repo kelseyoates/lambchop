@@ -64,9 +64,9 @@ export default class ContactForm extends React.Component {
 
         <div className="px-12 py-6">
           <div className="text-center">
-          <h1 className="font-normal text-xl text-grey-darkest  my-1 w-full">or</h1>
-            <h1 className="font-normal text-xl text-grey-darkest my-1 w-full">Request a Call</h1>
-            <div className="w-full text-center">
+          <h1 className="font-normal text-base leading-loose text-grey-darkest  w-full">or</h1>
+            <h1 className="font-normal text-base text-grey-darkest w-full">Request a Call</h1>
+            <div className="w-full text-center mt-5">
 
 
             <form className="w-full" name="one" data-netlify="true">
@@ -75,10 +75,10 @@ export default class ContactForm extends React.Component {
       {/* <label className="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-first-name">
         First Name
       </label> */}
-      <input className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="First Name" />
+      <input className="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="First Name" />
       {/* <p className="text-blue text-xs italic">Please fill out this field.</p> */}
     </div>
-    <div className="w-full md:w-1/4 px-3">
+    <div className="w-full md:w-1/4 px-3 mb-6 md:mb-0">
       {/* <label className="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-last-name">
         Last Name
       </label> */}
